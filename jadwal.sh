@@ -12,6 +12,7 @@ putih="\033[37m"
 
 menu() {
     clear
+    sleep 1
     
 echo -e $biru╔╦╦╦╦╦╦╦╦╦╦╗   A
 echo -e $biru╠╬╬╬╬╬╬╬╬╬╬╣   R
@@ -20,80 +21,165 @@ echo -e $biru╠╬╬╬╬╬╬╬╬╬╬╣   E
 echo -e $biru╠╬████████╬╣   L
 echo -e $biru╠╬█╬╬╬╬╬╬█╬╣
 echo -e $biru╚╩╩╩╩╩╩╩╩╩╩╝ 
-    echo -e -n $merah;figlet "JADWAL"
-    echo -e $merah "  SELAMAT DATANG DI TOOL ARIL"
-    echo -e $ungu"👉•••••••••••••[🙏]•••••••••••••👈"
-    echo -e $kuning "     Author :" "MAS ARIL"
-    echo -e $kuning "     Wa     :" "083826080776"
-    echo -e $ungu"👉•••••••••••••[🙏]•••••••••••••👈"
-    echo -e $hijau"[1]."$biru "MASUKE JADWAL"
-    echo -e $hijau"[2]."$biru "KELUARKE TOOL"
+    echo -e $merah"ＳＥＬＡＭＡＴ ＤＡＴＡＮＧ ＤＩ ＴＯＯＬ ＡＲＩＬ"
+    sleep 1
+echo -e $birumuda"╔═══════════════════════════════════════╗"
+echo -e $biru"  AUTHOR :"$merah "MAS ARIL"
+
+echo -e $biru"  WA     :"$merah "083826080776"
+
+echo -e $biru"  GITHUB :"$merah "https://github.com/Aril-iya"
+echo -e $birumuda"╚═══════════════════════════════════════╝"
+
+      sleep 1
+echo -e $birumuda"╔════════════════════════════════════════════════════╗"
+echo -e $merah  👉 "ini jadwal sekolah smk Islam dakwatul haq"🏫
+echo -e $merah  👉 "kelas 1 ruang 2 atau B. maaf buat sekolah lain"🙏
+echo -e $birumuda"╚════════════════════════════════════════════════════╝"
+     sleep 1
+echo -e $ungu"▕╲▂▂▂▂╱▏"
+echo -e $ungu" ╲╱╭╱╲╱╲"
+echo -e $ungu" ╱▔▔ ┊▏▕▏▕"
+echo -e $ungu"▕▂╱▔╳▔╲▊▏▊╱▔╲▔╲"
+echo -e $ungu"     ▏▕▏▔▔▔▕▋▕▕▋▏"           $birumuda"╔════════════════╗"
+echo -e $ungu"     ╲ ╲▂▂▂▂▂▂▂╱ "           $hijau" [1]."$biru "ＭＡＳＵＫ"
+echo -e $ungu"     | ╲▂▂▂▂▂╱ "             $hijau"   [2]."$biru "ＫＥＬＵＡＲ"
+echo -e $ungu"    ╱▔╲▕"             $birumuda"         ╚════════════════╝"
     mainmenu
-    
 }
 mainmenu() {
     echo -e -n $birumuda"   == pilih nomor [1/2] "$kuning;read pil
     if [ $pil == "1" ];then
+    sleep 1
+    echo -e $merah"         1"
+    sleep 1
+    echo -e $kuning"         2"
+    sleep 1
+    echo -e $hijau"         3"
     echo -e $hijau"[+]"$hijau" berhasil masuk"
     sleep 3
     clear
-    
-echo -e $merah┈┈┈┈▕▔╱▔▔▔━▁                A
-echo -e $merah┈┈┈▕▔╱╱╱👁┈╲▂▔▔╲          R
-echo -e $merah┈┈▕▔╱╱╱╱💧▂▂▂▂▂▂▏         I
-echo -e $merah┈▕▔╱▕▕╱╱╱┈▽▽▽▽▽         L
-echo -e $merah▕▔╱┊┈╲╲╲╲▂△△△△
-echo -e $merah▔╱┊┈╱▕╲▂▂▂▂▂▂╱
-echo -e $merah╱┊┈╱┉▕┉┋╲┈ 
-    echo -e -n $ungu;figlet "<JADWAL.KLS>"
-    echo -e $merah "  SELAMAT DATANG DI TOOL ARIL"
-    echo -e $ungu"👉•••••••••••••[🙏]•••••••••••••👈"
-    echo -e $kuning "     Author :" "MAS ARIL"
-    echo -e $kuning "     Wa     :" "083826080776"
-    echo -e $ungu"👉•••••••••••••[🙏]•••••••••••••👈"
+    sleep 2
+echo "      /)
+　　_(⌒)＿　　 /)
+　／ / ﾉ　 ヽ /ﾋE)
+ /ｲ// /LLﾄLL|/ /
+｜|/ /(6　6(/ /
+｜/_/ " ヮ"ﾉ_/
+/Y　ﾚ  ーイ /
+ﾚ|　ヽ-====-＼
+ﾚヽ　/／⌒＼⌒＼
+　 ＼ｿ 　　｜　l
+　　 )ヽ＿／＿／
+　 ／　　 ﾉ ﾉ"
+    echo -e $merah"ＳＥＬＡＭＡＴ ＤＡＴＡＮＧ ＤＩ ＴＯＯＬ"
+    sleep 2
+    echo -e $birumuda"╔═══════════════════════════════════════╗"
+    echo -e $biru"  AUTHOR :"$merah "MAS ARIL"
+    echo -e $biru"  WA     :"$merah "083826080776"
+    echo -e $biru"  GITHUB :"$merah "https://github.com/Aril-iya"
+    echo -e $birumuda"╚═══════════════════════════════════════╝"
+    sleep 2
+echo -e $birumuda"╔════════════════════════════════════════════════════╗"
+echo -e $kuning 👉"                    DISKIPSI                    "👈
+echo -e $kuning 👉"       🙏Sory buat gambar yg ada di atas🙏      "👈
+echo -e $kuning 👉"    😎terimakasih sudah menggunakan tool ini😎  "👈
+echo -e $kuning 👉"      👍Gud byee👋 sampai jumpa lain waktu😭    "👈
+echo -e $birumuda"╚════════════════════════════════════════════════════╝"
+    sleep 2
+
     echo -e $merah ""
     echo -e $merah «~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~»
     echo -e $hijau"    <<<DAFTAR JADWAL KELAS>>>"
     echo -e $merah «~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~»
-    echo -e $birumuda"•••••••••••••••••••••••••••••••••••"
-    echo -e $merah "[+]"$biru " SENIN"
-    echo -e $kuning "[-]"$birumuda "FISIKA"
-    echo -e $kuning "[-]"$birumuda "KOMPUTER & JARINGAN DASAR"
-    echo -e $kuning "[-]"$birumuda "SEJARAH INDONESIA"
-    echo -e $kuning "[-]"$birumuda "B.INGGRIS"
-    echo -e $birumuda"•••••••••••••••••••••••••••••••••••"
-    echo -e $merah "[+]"$biru " SELASA"
-    echo -e $kuning "[-]"$birumuda "KALIGRAFI"
-    echo -e $kuning "[-]"$birumuda "SENI BUDAYA"
-    echo -e $kuning "[-]"$birumuda "MATEMATIKA"
-    echo -e $kuning "[-]"$birumuda "SEJARAH INDONESIA"
-    echo -e $kuning "[-]"$birumuda "B.INDONESIA"
-    echo -e $birumuda"•••••••••••••••••••••••••••••••••••"
-    echo -e $merah "[+]"$biru " RABU"
-    echo -e $kuning "[-]"$birumuda "DASAR DESIGN GRAPHIC"
-    echo -e $kuning "[-]"$birumuda "KOMPUTER & JARINGAN DASAR"
-    echo -e $kuning "[-]"$birumuda "B.JAWA"
-    echo -e $kuning "[-]"$birumuda "KIMIA"
-    echo -e $birumuda"•••••••••••••••••••••••••••••••••••"
-    echo -e $merah "[+]"$biru " KAMIS"
-    echo -e $kuning "[-]"$birumuda "PAI"
-    echo -e $kuning "[-]"$birumuda "SIMULASI & KOMONIKASI DASAR"
-    echo -e $kuning "[-]"$birumuda "B.INGGRIS"
-    echo -e $kuning "[-]"$birumuda "B.INDONESIA"
-    echo -e $kuning "[-]"$birumuda "SISTEM KOMPUTER"
-    echo -e $birumuda"•••••••••••••••••••••••••••••••••••"
-    echo -e $merah "[+]"$biru " JUM'AT"
-    echo -e $kuning "[-]"$birumuda "PJOK"
-    echo -e $kuning "[-]"$birumuda "PKN"
-    echo -e $kuning "[-]"$birumuda "MATEMATIKA"
-    echo -e $birumuda"•••••••••••••••••••••••••••••••••••"
-    echo -e $merah "[+]"$biru " SABTU"
-    echo -e $kuning "[-]"$birumuda "PAI"
-    echo -e $kuning "[-]"$birumuda "BTQ"
-    echo -e $kuning "[-]"$birumuda "KIMIA"
-    echo -e $kuning "[-]"$birumuda "SIMUASI & KOMONIKASI"
-    echo -e $kuning "[-]"$birumuda "PEMPROGAMAN DASAR"
-    echo -e $birumuda"•••••••••••••••••••••••••••••••••••"
+    sleep 2
+    echo -e "            👇"
+    sleep 1
+    echo 
+    echo -e $birumuda"      ╔═══════════╗"
+    echo -e $merah "[+]."$biru " [ＳＥＮＩN]"$birumuda"                 [=]"
+    echo -e $birumuda"      ╚═══════════╝"
+    sleep 2
+    echo -e "            👇"
+    sleep 1
+    echo -e $birumuda"╔═════════════════════════════════════╗"
+    echo -e $kuning "[-]."$birumuda "FISIKA" $biru "                     [+]"
+    echo -e $kuning "[-]."$birumuda "KOMPUTER & JARINGAN DASAR"$biru"    [+]"
+    echo -e $kuning "[-]."$birumuda "SEJARAH INDONESIA"$biru"            [+]"
+    echo -e $kuning "[-]."$birumuda "B.INGGRIS"$biru"                    [+]"
+    echo -e $birumuda"╚═════════════════════════════════════╝"
+    sleep 2
+    echo 
+    echo -e $birumuda"      ╔══════════════╗"
+    echo -e $merah "[+]."$biru " [ＳＥＬＡＳＡ]"$birumuda"              [=]"
+    echo -e $birumuda"      ╚══════════════╝"
+    sleep 2
+    echo -e "            👇"
+    sleep 1
+    echo -e $birumuda"╔═════════════════════════════════════╗"
+    echo -e $kuning "[-]."$birumuda "KALIGRAFI"$biru"                    [+]"
+    echo -e $kuning "[-]."$birumuda "SENI BUDAYA"$biru"                  [+]"
+    echo -e $kuning "[-]."$birumuda "MATEMATIKA"$biru"                   [+]"
+    echo -e $kuning "[-]."$birumuda "SEJARAH INDONESIA"$biru"            [+]"
+    echo -e $kuning "[-]."$birumuda "B.INDONESIA"$biru"                  [+]"
+    echo -e $birumuda"╚═════════════════════════════════════╝"
+    sleep 2
+    echo 
+    echo -e $birumuda"      ╔══════════╗"
+    echo -e $merah "[+]."$biru " [ＲＡＢＵ]"$birumuda"                  [=]"
+    echo -e $birumuda"      ╚══════════╝"
+    sleep 2
+    echo -e "            👇"
+    sleep 1
+    echo -e $birumuda"╔═════════════════════════════════════╗"
+    echo -e $kuning "[-]."$birumuda "DASAR DESIGN GRAPHIC"$biru"         [+]"
+    echo -e $kuning "[-]."$birumuda "KOMPUTER & JARINGAN DASAR"$biru"    [+]"
+    echo -e $kuning "[-]."$birumuda "B.JAWA"$biru"                       [+]"
+    echo -e $kuning "[-]."$birumuda "KIMIA"$biru"                        [+]"
+    echo -e $birumuda"╚═════════════════════════════════════╝"
+    sleep 2
+    echo 
+    echo -e $birumuda"      ╔════════════╗"
+    echo -e $merah "[+]."$biru " [ＫＡＭＩＳ]"$birumuda"                [=]"
+    echo -e $birumuda"      ╚════════════╝"
+    sleep 2
+    echo -e "            👇"
+    sleep 1
+    echo -e $birumuda"╔═════════════════════════════════════╗"
+    echo -e $kuning "[-]."$birumuda "PAI"$biru"                          [+]"
+    echo -e $kuning "[-]."$birumuda "SIMULASI & KOMONIKASI DASAR"$biru"  [+]"
+    echo -e $kuning "[-]."$birumuda "B.INGGRIS"$biru"                    [+]"
+    echo -e $kuning "[-]."$birumuda "B.INDONESIA"$biru"                  [+]"
+    echo -e $kuning "[-]."$birumuda "SISTEM KOMPUTER"$biru"              [+]"
+    echo -e $birumuda"╚═════════════════════════════════════╝"
+    sleep 2
+    echo 
+    echo -e $birumuda"      ╔════════════╗"
+    echo -e $merah "[+]."$biru " [ＪＵＭＡＴ]"$birumuda"                [=]"
+    echo -e $birumuda"      ╚════════════╝"
+    sleep 2
+    echo -e "            👇"
+    sleep 1
+    echo -e $birumuda"╔═════════════════════════════════════╗"
+    echo -e $kuning "[-]."$birumuda "PJOK"$biru"                         [+]"
+    echo -e $kuning "[-]."$birumuda "PKN"$biru"                          [+]"
+    echo -e $kuning "[-]."$birumuda "MATEMATIKA"$biru"                   [+]"
+    echo -e $birumuda"╚═════════════════════════════════════╝"
+    sleep 2
+    echo 
+    echo -e $birumuda"      ╔════════════╗"
+    echo -e $merah "[+]."$biru " [ＳＡＢＴＵ]"$birumuda"                [=]"
+    echo -e $birumuda"      ╚════════════╝"
+    sleep 2
+    echo -e "            👇"
+    sleep 1
+    echo -e $birumuda"╔═════════════════════════════════════╗"
+    echo -e $kuning "[-]."$birumuda "PAI"$biru"                          [+]"
+    echo -e $kuning "[-]."$birumuda "BTQ"$biru"                          [+]"
+    echo -e $kuning "[-]."$birumuda "KIMIA"$biru"                        [+]"
+    echo -e $kuning "[-]."$birumuda "SIMUASI & KOMONIKASI"$biru"         [+]"
+    echo -e $kuning "[-]."$birumuda "PEMPROGAMAN DASAR"$biru"            [+]"
+    echo -e $birumuda"╚═════════════════════════════════════╝"
     elif [ $pil == "2" ];then
     echo -e $merah"[!]"$putih" keluar"
     exit
